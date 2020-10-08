@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#303030"
+    tools:context=".VerilerActivity">
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_marginHorizontal="20dp"
+
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/back"
+            style="@style/buttontransparent"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:drawableLeft="@drawable/icon_geri"></Button>
+
+        <SearchView
+            android:id="@+id/mySearchView"
+            style="@style/button"
+
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:queryHint="Ara"
+            android:iconifiedByDefault="false">
+
+        </SearchView>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginHorizontal="15dp"
+        android:gravity="right">
+
+
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:paddingLeft="10dp"
+            android:textSize="16dp"
+            android:text="AD" />
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:textColor="@android:color/white"
+            android:textSize="16dp"
+            android:text="SOYAD" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:textSize="16dp"
+            android:textColor="@android:color/white"
+            android:text="TELEFON" />
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/white"
+        android:layout_marginHorizontal="25dp"/>
+
+
+    <ListView
+        android:id="@+id/kayitlar"
+        android:paddingLeft="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+</LinearLayout>

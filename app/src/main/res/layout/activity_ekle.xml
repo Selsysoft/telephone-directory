@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".EkleActivity"
+    android:background="#303030"
+    android:gravity="center">
+
+
+
+    <EditText
+        android:id="@+id/ad"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="25dp"
+        android:paddingLeft="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:maxLength="20"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white">
+
+    </EditText>
+
+        <EditText
+            android:id="@+id/soyad"
+            android:layout_marginTop="20dp"
+            android:layout_marginHorizontal="25dp"
+            android:paddingLeft="15dp"
+            android:textColorHint="@android:color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLength="20"
+            android:textColor="@android:color/white"
+            android:hint="Surname">
+
+        </EditText>
+
+        <EditText
+        android:id="@+id/telefon"
+        android:textColorHint="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="25dp"
+        android:paddingLeft="15dp"
+        android:textColor="@android:color/white"
+        android:inputType="number"
+        android:maxLength="11"
+        android:hint="Phone Number"
+        android:textColorLink="@color/colorGri"></EditText>
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_gravity="center"
+    android:layout_marginTop="20dp"
+    android:layout_marginHorizontal="25dp">
+
+    <Button
+        android:id="@+id/iptal"
+        style="@style/iptal"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Cancel"></Button>
+
+    <Button
+        android:id="@+id/kaydet"
+        style="@style/kaydet"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Add">
+    </Button>
+
+</LinearLayout>
+
+
+</LinearLayout>

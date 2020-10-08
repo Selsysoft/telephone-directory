@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RehberActivity"
+    android:background="#303030"
+    android:gravity="center">
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/white"
+        android:layout_marginHorizontal="25dp"
+        android:layout_marginVertical="15dp" />
+
+    <Button
+        android:id="@+id/kisiler"
+        style="@style/button"
+        android:layout_width="180dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="Persons"
+        android:shadowColor="@color/colorBlueButton"
+        android:textAlignment="center"
+        android:paddingLeft="15dp"
+        android:textColor="@android:color/white"
+        android:drawableLeft="@drawable/icon_kisiler"></Button>
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/white"
+        android:layout_marginHorizontal="25dp"
+        android:layout_marginVertical="15dp" />
+
+    <Button
+        android:id="@+id/yenikisiekle"
+        style="@style/button"
+        android:layout_width="180dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:paddingLeft="15dp"
+        android:text="Add Contact"
+        android:shadowColor="@color/colorBlueButton"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:paddingStart="15dp"
+        android:drawableLeft="@drawable/icon_ekleme"></Button>
+
+
+    <View
+        android:id="@+id/view3"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/white"
+        android:layout_marginHorizontal="25dp"
+        android:layout_marginVertical="15dp" />
+
+    <Button
+        android:id="@+id/kisiyisil"
+        style="@style/button"
+        android:layout_width="180dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:paddingLeft="15dp"
+        android:text="Delete Contact"
+        android:shadowColor="@color/colorBlueButton"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:paddingStart="15dp"
+        android:drawableLeft="@drawable/ic_sil"></Button>
+    <View
+        android:id="@+id/view4"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/white"
+        android:layout_marginHorizontal="25dp"
+        android:layout_marginVertical="15dp" />
+
+    <Button
+        android:id="@+id/kisiyiguncelle"
+        style="@style/button"
+        android:layout_width="180dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:paddingLeft="15dp"
+        android:text="Update Contact"
+        android:shadowColor="@color/colorBlueButton"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:paddingStart="15dp"
+        android:drawableLeft="@drawable/ic_guncelle"></Button>
+
+    <View
+        android:id="@+id/view5"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/white"
+        android:layout_marginHorizontal="25dp"
+        android:layout_marginVertical="15dp" />
+
+
+</LinearLayout>

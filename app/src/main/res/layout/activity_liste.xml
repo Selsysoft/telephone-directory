@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="#303030"
+    android:layout_height="match_parent">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginHorizontal="15dp"
+        android:gravity="center_vertical">
+
+        <com.github.zagum.switchicon.SwitchIconView
+            android:id="@+id/kisi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:paddingRight="5dp"
+            android:src="@drawable/icon_kisiler"
+            app:si_animation_duration="500"
+            app:si_disabled_alpha=".5"
+            app:si_disabled_color="#FFFFFF"
+            app:si_enabled="false"
+            app:si_no_dash="true"
+            app:si_tint_color="#2196f3" />
+
+        <TextView
+            android:id="@+id/add"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:paddingLeft="10dp"
+            android:textSize="16dp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/soyadd"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:textColor="@android:color/white"
+            android:textSize="16dp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/telefonn"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:textSize="16dp"
+            android:textColor="@android:color/white"
+            android:text="TextView" />
+
+    </LinearLayout>
+
+</LinearLayout>
